@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="​Только честные отзывы о услугах">
+    <meta name="description" content="">
+    <title>Новый отзыв</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="mainPage.css" media="screen">
+    <link rel="stylesheet" href="new_review.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.8.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <script type="application/ld+json">{
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "",
+        "logo": "images/2267389.jpg"
+    }</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="review">
+    <meta property="og:type" content="website">
+    <meta data-intl-tel-input-cdn-path="intlTelInput/">
+</head>
+<body class="u-body u-xl-mode" data-lang="ru">
+<header class="u-clearfix u-custom-color-4 u-header u-header" id="sec-6153" th:insert="~{fragments/header}">
+</header>
+<div class="u-clearfix wrapper">
+    <section class="new-review-header">
+        <div class="new-review-header-name">
+            <span class="new-review-header-name-text">Новый отзыв</span>
+        </div>
+    </section>
+    <section class="new-review-info">
+        <form class="new-review-info-form" action="#">
+            <div class="new-review-info-form-block">
+                <input class="radio-button" checked type="radio" name="review_type" value="review"><span class="radio-button-text">Отзыв</span>
+                <input class="radio-button" type="radio" name="review_type" value="complain"><span class="radio-button-text">Жалоба</span>
+                <input class="radio-button" type="radio" name="review_type" value="suggestion"><span class="radio-button-text">Предложение</span>
+            </div>
+            <div class="new-review-info-form-block">
+                <span class="new-review-info-form-header-text">Ваши данные</span>
+                <div class="new-review-info-form-email">
+                    <span class="input-header">Почта</span><input class="input-field" type="text" name="organization_name" value="">
+                </div>
+                <div class="new-review-info-form-tel">
+                    <span class="input-header">Телефон</span><input class="input-field" type="tel" name="organization_name" value="">
+                </div>
+            </div>
+            <div class="new-review-info-form-block">
+                <span class="new-review-info-form-header-text">Данные организации</span>
+                <div class="new-review-info-organization-type">
+                    <span class="input-header">Тип организации</span>
+                        <select class="input-field" name="organization-type">
+                            <option class="medical">Медицинская организация</option>
+                            <option class="medical">Образовательное учреждение</option>
+                            <option class="medical">Органы власти</option>
+                            <option class="medical">Коммерческая организация</option>
+                        </select>
+                </div>
+                <div class="new-review-info-organization-city">
+                    <span class="input-header">Город организации</span><input class="input-field" type="text" name="organization_address" value="">
+                </div>
+                <div class="new-review-info-organization-name">
+                    <span class="input-header">Наименование организации</span><input class="input-field" type="text" name="organization_name" value="">
+                </div>
+                <div class="new-review-info-organization-address">
+                    <span class="input-header">Адрес организации</span><input class="input-field" type="text" name="organization_address" value="">
+                </div>
+            </div>
+            <div class="new-review-info-form-block">
+                <span class="new-review-info-form-header-text">Ваше сообщение</span>
+                <div class="new-review-info-form-rank">
+                <span class="input-header">Оценка</span>
+                    <input class="radio-button" type="radio" name="review_rank" value="1"><span class="radio-button-text">1</span>
+                    <input class="radio-button" type="radio" name="review_rank" value="2"><span class="radio-button-text">2</span>
+                    <input class="radio-button" type="radio" name="review_rank" value="3"><span class="radio-button-text">3</span>
+                    <input class="radio-button" type="radio" name="review_rank" value="4"><span class="radio-button-text">4</span>
+                    <input class="radio-button" type="radio" name="review_rank" value="5"><span class="radio-button-text">5</span>
+                </div>
+                <div class="new-review-info-form-textarea">
+                    <span class="input-header" >Сообщение</span>
+                    <textarea class="input-field" rows="100"></textarea>
+                </div>
+            </div>
+            <div class="send">
+                <button type="submit" class="send-review-button">Отправить отзыв</button>
+            </div>
+        </form>
+    </section>
+</div>
+
+
+<footer class="u-align-center u-clearfix u-footer u-blue-80 u-footer" id="sec-a4c6" th:insert="~{fragments/footer}">
+</footer>
+</body>
+</html>
